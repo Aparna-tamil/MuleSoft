@@ -35,22 +35,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>95336c61-c040-4822-98bb-5e76af4bb28c</groupId>
-			<artifactId>mua-flights-api</artifactId>
-			<version>1.0.0</version>
-			<classifier>raml</classifier>
-			<type>zip</type>
-		</dependency>
-		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-apikit-module</artifactId>
 			<version>1.5.1</version>
-			<classifier>mule-plugin</classifier>
-		</dependency>
-		<dependency>
-			<groupId>95336c61-c040-4822-98bb-5e76af4bb28c</groupId>
-			<artifactId>mule-plugin-american-flights-api</artifactId>
-			<version>1.0.2</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
@@ -66,9 +53,21 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
+			<groupId>9feda407-498e-4975-a54c-8c773bf71a26</groupId>
+			<artifactId>mule-plugin-american-flights-api</artifactId>
+			<version>1.0.3</version>
+			<classifier>mule-plugin</classifier>
+		</dependency>
+		<dependency>
 			<groupId>org.mule.connectors</groupId>
 			<artifactId>mule-wsc-connector</artifactId>
 			<version>1.6.4</version>
+			<classifier>mule-plugin</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-validation-module</artifactId>
+			<version>1.4.3</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
 	</dependencies>
